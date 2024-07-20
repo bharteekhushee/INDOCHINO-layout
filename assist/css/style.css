@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* common part */
+#btn {
+    color: #15A4F4;
+    font-weight: bold;
+    background-color: white;
+    width: 300px;
+    height: 50px;
+    border: 2px solid #0695e7;
+    transition: all 0.4s;
+}
+
+#btn:hover {
+    transform: scale(1.2);
+    background-color: #15A4F4;
+    color: white;
+    border: 2px solid white;
+}
+
+/* common part */
+/* banner section start */
+#banner {
+    background: linear-gradient(#2497EA, #58B9EF);
+    height: 600px;
+}
+
+#banner img {
+    height: 80%;
+}
+
+#banner .col-text {
+    margin: 150px 0px;
+}
+
+@media screen and (max-width:767px) {
+    #banner {
+        height: auto;
+    }
+
+    #banner img {
+        padding-top: 20px;
+        width: 70%;
+        height: 400px;
+    }
+
+    #banner .col-text {
+        margin: 20px 0px;
+    }
+}
+
+/* banner section end */
+/* come us section start */
+#come {
+    background-color: #38A0EA;
+
+}
+
+/* come us section end */
+/* visit section start */
+#visit {
+    margin-top: -30px;
+}
+
+#visit p {
+    margin: 35px 0px;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+/* visit section end */
+/* indochino section start */
+#indochino .col-12 .row .col {
+    overflow: hidden;
+   
+}
+
+#indochino .col-12 .row img {
+    width: 100%;
+    height: 200px;
+    transition: all 0.5s;
+    border: 2px solid #0695e7;
+}
+
+#indochino .col-12 .row img:hover {
+    transform: scale(1.4);
+}
+
+@media screen and (max-width:567px) {
+    #indochino .col-12 .row img {
+        height: auto;
+    }
+}
+/* indochino section end */
